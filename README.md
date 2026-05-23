@@ -49,7 +49,7 @@ ai-interview-simulator/
 
 ### Step 1 — Get your API Key
 
-1. Go to https://console.anthropic.com
+1. Go to https://console.gemini.com//
 2. Click **API Keys** → **Create Key**
 3. Copy the key (starts with `sk-ant-...`)
 
@@ -208,7 +208,7 @@ For deployment, you can host:
 
 | Variable | Required | Description |
 |----------|----------|-------------|
-| `ANTHROPIC_API_KEY` | ✅ Yes | Your Claude API key from console.anthropic.com |
+| `ANTHROPIC_API_KEY` | ✅ Yes | Your Gemini API key from console.anthropic.com |
 
 ---
 

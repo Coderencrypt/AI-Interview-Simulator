@@ -43,7 +43,7 @@ ai-interview-simulator/
 ### Prerequisites
 - **Python 3.9+** — https://python.org/downloads
 - **Node.js 18+** — https://nodejs.org
-- **Anthropic API Key** — https://console.anthropic.com
+- **Anthropic API Key** — https://console.gemini.com
 
 ---
 
@@ -182,7 +182,7 @@ When prompted, **allow camera and microphone access**.
 - Do not change ports without updating `vite.config.js` and `main.py`
 
 **API rate limit / quota error?**
-- Check your Anthropic account usage at console.anthropic.com
+- Check your Anthropic account usage at console.gemini.com
 - The app will use fallback questions/feedback if the API fails
 
 ---
@@ -208,7 +208,7 @@ For deployment, you can host:
 
 | Variable | Required | Description |
 |----------|----------|-------------|
-| `ANTHROPIC_API_KEY` | ✅ Yes | Your Gemini API key from console.anthropic.com |
+| `ANTHROPIC_API_KEY` | ✅ Yes | Your Gemini API key from console.gemini.com |
 
 ---
 
@@ -218,7 +218,7 @@ For deployment, you can host:
 |-------|-----------|
 | Frontend | React 18, Vite, CSS Modules |
 | Backend | Python, FastAPI, Uvicorn |
-| AI | Anthropic Claude claude-sonnet-4-5 |
+| AI | Gemini, Claude claude-sonnet-4-5 |
 | Voice | Web Speech Recognition API |
 | Camera | MediaDevices.getUserMedia() |
 | Fonts | Google Fonts (Syne + DM Sans) |

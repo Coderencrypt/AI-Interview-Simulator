@@ -225,4 +225,4 @@ For deployment, you can host:
 
 ---
 
-Made with ❤️ for placement preparation · Powered by Anthropic Claude AI
+Made with ❤️ for placement preparation · Powered by AYUSH DUBEY----
